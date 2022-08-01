@@ -12,7 +12,7 @@ object Q1 extends App{
     }
 
     printf("Enter the deposit amount : ")
-    var deposit = scala.io.StdIn.readDouble()
+    var deposit = readDouble()
     printf("The interest for the deposited amount is : %.2f",interest(deposit))
 
 }

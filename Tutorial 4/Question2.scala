@@ -11,6 +11,6 @@ object Q4 extends App{
     }
 
     printf("Enter the number : ")
-    var num = scala.io.StdIn.readInt()
+    var num = readInt()
     PatternMatching(num)
 }
