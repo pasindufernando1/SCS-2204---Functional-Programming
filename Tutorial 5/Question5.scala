@@ -15,3 +15,4 @@ object Q5 extends App{
     var n = readInt()
     printf("The sum of the even numbers less than n is : %d",addEven(n-1))
 }
+
